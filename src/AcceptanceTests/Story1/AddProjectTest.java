@@ -4,6 +4,7 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 import system.StubProjectManagement;
 import org.junit.Before;
+//Adding comment.
 /**
  * STORY 1
  * Test 1
@@ -44,20 +45,21 @@ public class AddProjectTest
 
 
 
-//    public void testAddProjectWithValidDetails() {
-//        // Simulate valid project data
-//        String projectName = "Project Management System";
-//        String description = "A system to manage final projects";
-//        int estimatedHours = 100;
-//        String proposerContact = "proposer@example.com";
-//        String organization = "Example Inc";
-//
-//        // Simulate expected success response
-//        boolean isProjectAdded = true; // Simulated response from the system
-//
-//        // Test assertion
-//        assertTrue("Project should be added successfully with valid details", isProjectAdded);
-//    }
+    public void testAddProjectWithValidDetails()
+    {
+        // Simulate valid project data
+        String projectName = "Project Management System";
+        String description = "A system to manage final projects";
+        int estimatedHours = 100;
+        String proposerContact = "proposer@example.com";
+        String organization = "Example Inc";
+
+        // Simulate expected success response
+        boolean isProjectAdded = true; // Simulated response from the system
+
+        // Test assertion
+        assertTrue("Project should be added successfully with valid details", isProjectAdded);
+    }
 //
 //    @Test
 //    public void testAddProjectWithInvalidDetails() {
